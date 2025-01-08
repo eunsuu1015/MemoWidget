@@ -16,6 +16,7 @@
 		FA59DF072D2D742D00A68A4F /* MemoWidgetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA59DF062D2D742D00A68A4F /* MemoWidgetTests.swift */; };
 		FA59DF112D2D742D00A68A4F /* MemoWidgetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA59DF102D2D742D00A68A4F /* MemoWidgetUITests.swift */; };
 		FA59DF132D2D742D00A68A4F /* MemoWidgetUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA59DF122D2D742D00A68A4F /* MemoWidgetUITestsLaunchTests.swift */; };
+		FA59DF2C2D2ECA6A00A68A4F /* MemoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA59DF2B2D2ECA6A00A68A4F /* MemoItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		FA59DF0C2D2D742D00A68A4F /* MemoWidgetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemoWidgetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA59DF102D2D742D00A68A4F /* MemoWidgetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoWidgetUITests.swift; sourceTree = "<group>"; };
 		FA59DF122D2D742D00A68A4F /* MemoWidgetUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoWidgetUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FA59DF2B2D2ECA6A00A68A4F /* MemoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MemoItem.swift; path = ../../../../MemoItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -204,6 +206,7 @@
 		FA59DF292D2EC1E600A68A4F /* Entity */ = {
 			isa = PBXGroup;
 			children = (
+				FA59DF2B2D2ECA6A00A68A4F /* MemoItem.swift */,
 			);
 			path = Entity;
 			sourceTree = "<group>";
@@ -348,6 +351,7 @@
 			files = (
 				FA59DEF42D2D742800A68A4F /* ViewController.swift in Sources */,
 				FA59DEF02D2D742800A68A4F /* AppDelegate.swift in Sources */,
+				FA59DF2C2D2ECA6A00A68A4F /* MemoItem.swift in Sources */,
 				FA59DEF22D2D742800A68A4F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
